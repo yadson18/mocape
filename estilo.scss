@@ -166,14 +166,12 @@ body > * {
 	margin: auto;
 	position: relative;
 	left: 18%;
-}
-#button{
- 	border: solid 1px white;
-  background-color: rgba(0,0,0,0);
 } 
 #busca, #button{
   border-radius: 0px;
 }
 .form-style{
   border: solid 1px;
+  border-radius: 0px;
+  padding: 4px;
 }
