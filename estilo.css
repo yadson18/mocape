@@ -6026,3 +6026,6 @@ body > * {
 
 #busca, #button {
   border-radius: 0px; }
+
+.form-style {
+  border: solid 1px; }
