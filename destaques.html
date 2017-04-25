@@ -46,11 +46,11 @@
   <div class="w-100 h-50">
     <div class="container h-100">
       <div class="row h-100 w-100">
-        <div class="col-md-4">
+        <div class="col-md-4 aula">
           <h1 class="text-info p-3">Aula 1</h1><img class="center-block d-block img-fluid img-thumbnail" src="https://0.s3.envato.com/files/146385799/003.jpg"><img class="star center-block img-fluid d-block rounded my-2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/1_stars.svg"></div>
-        <div class="col-md-4">
+        <div class="col-md-4 aula">
           <h1 class="text-info p-3">Aula 2</h1><img class="center-block img-fluid d-block img-thumbnail" src="https://0.s3.envato.com/files/146385799/005.jpg"><img class="star center-block img-fluid d-block rounded my-2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/1_stars.svg"></div>
-        <div class="col-md-4">
+        <div class="col-md-4 aula">
           <h1 class="text-info p-3">Aula 3</h1><img class="center-block img-fluid d-block img-thumbnail" src="https://0.s3.envato.com/files/146385799/006.jpg"><img class="star center-block img-fluid d-block rounded my-2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/1_stars.svg"></div>
       </div>
     </div>
@@ -65,6 +65,11 @@
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+  <script>
+    $(".aula").on("click", function(){
+        alert("Oi");
+      });
+  </script>
 </body>
 
 </html>
