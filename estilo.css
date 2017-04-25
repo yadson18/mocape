@@ -6020,12 +6020,10 @@ body > * {
   position: relative;
   left: 18%; }
 
-#button {
-  border: solid 1px white;
-  background-color: transparent; }
-
 #busca, #button {
   border-radius: 0px; }
 
 .form-style {
-  border: solid 1px; }
+  border: solid 1px;
+  border-radius: 0px;
+  padding: 4px; }
