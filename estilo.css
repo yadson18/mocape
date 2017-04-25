@@ -6024,7 +6024,8 @@ body > * {
   border-radius: 0px; }
 
 #button {
-  background-color: transparent; }
+  background-color: transparent;
+  border: solid 1px white; }
 
 .form-style {
   border: solid 1px;
